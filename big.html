@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biggbasket</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap-icons-1.11.1/">
+    <style>
+        body{
+            background: linear-gradient(to top, #66ffcc 0%, #ff9933 100%);
+            height: 100vh;
+            background-repeat: no-repeat;
+
+        }
+        .top {
+            width: 100%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+        }
+
+        .color {
+            color: gray;
+        }
+
+        .pad {
+            padding: 10px;
+        }
+
+        .back {
+            background-color: green;
+            padding: 10px;
+            color: white;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        .top1:hover {
+            color: orange;
+
+        }
+
+        .tab {
+            width: 100%;
+            background-color: orange;
+            color: white;
+            position: fixed;
+
+        }
+
+        .green:hover {
+            color: black;
+
+        }
+
+        div.card {
+            width: 150px;
+            height: 200px;
+            color: black;
+            transition: transform 0.8s;
+        }
+
+        li:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .black {
+            color: black;
+        }
+
+        .shadow {
+            box-shadow: 20px 2 0px 20px black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .height {
+            margin-top: 50px;
+        }
+
+        .log {
+            width: 400px;
+            height: 300px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(231, 147, 38);
+            border-bottom-right-radius: 60px;
+            border-top-left-radius: 60px;
+        }
+
+        .footer {
+            background-color: rgb(16, 16, 112);
+            color: white;
+        }
+        li a:hover{
+            color:red;
+        }
+        li a{
+            font-size: 18px;
+            font-weight: 300;
+        }
+        div.card:hover{
+            box-shadow: 3px 5px 10px black;
+        }
+        div.card .card-img-top:hover{
+            transform: scale(1.2);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="top text-center fw-bold" id="home">
+            "90's"kid bulk order to available to here! +12345 67890
+        </div>
+        <div class="container">
+            <div class="row text-left pad">
+                <div class="col-lg-3 col-sm-4 col-12">
+                    welcome to mitaaikadai.com
+                </div>
+
+                <div class="col-sm-8 col-lg-9 col-12 text-lg-end text-sm-start small mt-2">
+                    <ul>
+                        <li class="top1">mittaikadai@gamail.com |</li>
+                        <li class="top1">+91 2323231 23 |</li>
+                        <li class="top1">sign in-sign up |</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container col-sm text-center ">
+                    <input placeholder="search for products.." type="search" style="width: 400px; background-color: none;
+                            border-radius: 15px; border: 2px solid green;
+                            padding: 5px;">
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-sm-2 col-lg-2 col-sm-2 col-2" style="font-size:23px;color:orange; ">
+                        Catagory
+                    </div>
+                    <div class="col-sm-10 col-lg-10 col-sm-10 col-10 text-lg-center text-sm-center">
+                        <ul class="text-center">
+                            <li class="mx-lg-5 mx-1"><a href="#home">Home</a></li>
+                            <li class="mx-lg-5 mx-1"><a href="#items">Items</a></li>
+                            <li class="mx-lg-5 mx-1"><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-6 black text-center mt-lg-5 mt-sm-3">
+                            <h1>welcome to 90's<br> Mittai Shop</h1>
+                            <span><a href="#" class="btn btn-primary mt-lg-4 mt-3">
+                                    Purchase on!
+                                </a></span>
+                        </div>
+
+                        <div class="col-lg-6 text-center">
+                            <img src="2.jpg" alt="kid image" width="400" class="shadow img-fluid img-thumbnail mt-5 mt-lg-0" height="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-lg-5 mt-3 height">
+                <div class="row text-lg-center" id="items" style="color:black">
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center">
+                        <div class="card" style="width:12rem;">
+                            <img src="I1.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">milk treat</h4>
+                                <p class="card-text">Rs.10</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center">
+                        <div class="card" style="width:12rem;">
+                            <img src="i2.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">skittles</h4>
+                                <p class="card-text">Rs.30</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center">
+                        <div class="card" style="width:12rem;">
+                            <img src="i3.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">chunks</h4>
+                                <p class="card-text">Rs.50</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container mt-lg-auto">
+                <div class="row text-lg-center mt-lg-5" style="color:black">
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center mt-lg-5 pt-lg-5">
+                        <div class="card" style="width:12rem;">
+                            <img src="I1.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">milk treat</h4>
+                                <p class="card-text">Rs.10</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center mt-lg-5 pt-lg-5">
+                        <div class="card" style="width:12rem;">
+                            <img src="i2.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">skittles</h4>
+                                <p class="card-text">Rs.30</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-4 mt-5 pt-5 pb-5 pb-lg-0 text-center d-flex justify-content-center align-items-center mt-lg-5 pt-lg-5">
+                        <div class="card" style="width:12rem;">
+                            <img src="i3.jpg" alt="kidcandy" class="card-img-top img-fluid" width="290" height="500">
+                            <div class="card-body">
+                                <h4 class="card-title">chunks</h4>
+                                <p class="card-text">Rs.50</p>
+                                <button class="btn btn-outline-success">
+                                    <a class="btn" href="#">Buy now</a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+            <div id="#login" class="container mt-lg-5 mt-sm-5 pt-lg-5 ">
+                <div class="row ">
+                    <div class="col-lg-6 text-center mx-lg-5 order-sm-3 mt-lg-5 text-danger">
+                        <h1 class="display-4 ">Welcome to login <br> page</h1>
+
+                    </div>
+                    <div class="log mt-5 pt-5 order-sm-last mx-auto form-group">
+
+                        <div class="col-lg-6 mx-auto">
+                            <label for="inputUserName">
+                                Username
+                            </label>
+                            <input type="text" class="form-control" id="inputUserName" placeholder="enter username">
+
+                            <div class="mt-lg-3">
+                                <label for="inputPassword">
+                                    password
+                                </label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                                <a href="home" class="btn btn-danger mt-3">
+                                    login
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer container-fluid mt-lg-5 mt-5">
+            <div id="contacts">
+                <h4>About</h4>
+                <h6>Email address : example@gamil.com</h6>
+                <h6>Phone Number: 12345 67890</h6>
+                <h6>Address : No.2 Gandhi Street, Villupuram Main Road, Reddiyarpalayam.</h6>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+    </div>
+    </div>
+
+    <!--------items------->
+
+
+
+
+
+</body>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+</html>
